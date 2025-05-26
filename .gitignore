@@ -1,3 +1,5 @@
+new.out.dSYM
+*.out
 .vscode
 .DS_Store
 
