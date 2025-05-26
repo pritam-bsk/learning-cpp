@@ -50,8 +50,8 @@ I'm aiming to master **Computer Science & Engineering**, and C++ is a must-know 
 
 ## 💬 Connect with Me
 I'm open to collaboration, discussion, or just geeking out about C++ and CS stuff.  
-📬 [Your Email or Social Handle]  
-📌 Preparing for **JEE 2025**
+📬 [riju.coder@gmail.com]  
+📌 Preparing to master competitive programming
 
 ---
 
