@@ -44,13 +44,13 @@ I'm aiming to master **Computer Science & Engineering**, and C++ is a must-know 
 ## 🧠 What I'm Focusing On
 - Writing clean, readable code
 - Mastering recursion, pointers, and memory management
-- Practicing with problems on LeetCode, Codeforces, etc.
+- Practicing with problems on [LeetCode](https://leetcode.com/u/pritam_basak/), [HackerRank](https://www.hackerrank.com/profile/riju_coder), etc.
 
 ---
 
 ## 💬 Connect with Me
 I'm open to collaboration, discussion, or just geeking out about C++ and CS stuff.  
-📬 [riju.coder@gmail.com]  
+📬 [email](riju.coder@gmail.com)<br>
 📌 Preparing to master competitive programming
 
 ---
