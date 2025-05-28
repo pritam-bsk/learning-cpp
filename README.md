@@ -16,6 +16,8 @@ I'm aiming to master **Computer Science & Engineering**, and C++ is a must-know 
 ## 📂 Repo Structure
     cpp-learning/
     ├── basics/
+    ├── pointers & refrence/
+    ├── functions/
     ├── oops/
     ├── stl/
     ├── dsa/
