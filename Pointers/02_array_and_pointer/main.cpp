@@ -74,5 +74,15 @@ int main(){
 
   p_score = scores;    // reset pointing to first
   std::cout << "scores[4] : " << *(p_score + 4) << std::endl; // Moves forward by 4 * sizeof(int)
+
+  // same with array name
+
+  
+  std::cout << *scores<< std::endl;
+  std::cout << *scores + 1<< std::endl;
+  std::cout << *scores + 2<< std::endl;
+  std::cout << *scores + 3<< std::endl;
+  std::cout << *scores + 4<< std::endl;
+
   return 0;
 }
