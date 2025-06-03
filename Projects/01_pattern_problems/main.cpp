@@ -2,7 +2,7 @@
 using namespace std;
 
 
-void patern1(int n){
+void pattern1(int n){
   for (int i = 0; i < n; i++)               // * * * * * *
 {                                           // * * * * * *    
     for (int j = 0; j < n; j++)             // * * * * * *
@@ -12,7 +12,7 @@ void patern1(int n){
     std::cout<<std::endl;
   }
 }
-void patern2(int n){
+void pattern2(int n){
   for (int i = 0; i < n; i++)            //*
   {                                      //* *
     for (int j = 0; j <= i; j++)         //* * *
@@ -23,7 +23,7 @@ void patern2(int n){
   }
   
 }
-void patern3(int n){
+void pattern3(int n){
   for (int i = 0; i < n; i++)            
   {
     for (int j = 0; j <= i; j++)
@@ -34,7 +34,7 @@ void patern3(int n){
   }
   
 }
-void patern4(int n){
+void pattern4(int n){
   for (int i = 0; i < n; i++)            
   {
     for (int j = 0; j <= i; j++)
@@ -44,7 +44,7 @@ void patern4(int n){
     cout<<endl;
   }
 }
-void patern5(int n){
+void pattern5(int n){
   for (int i = 0; i < n; i++)            
   {
     for (int j = 0; j < n-i; j++)
@@ -54,7 +54,7 @@ void patern5(int n){
     cout<<endl;
   }
 }
-void patern6(int n){
+void pattern6(int n){
   for (int i = 0; i < n; i++)            
   {
     for (int j = 0; j < n-i; j++)
@@ -64,7 +64,7 @@ void patern6(int n){
     cout<<endl;
   }
 }
-void patern7(int n){
+void pattern7(int n){
   for (int i = 0; i < n; i++)            
   {
     for (int j = 0; j < (2*n)-1; j++)
@@ -78,7 +78,7 @@ void patern7(int n){
     cout<<endl;
   }
 }
-void patern8(int n){
+void pattern8(int n){
   for (int i = 0; i < n; i++)            
   {
     for (int j = 0; j < (2*n)-1; j++)
@@ -92,27 +92,72 @@ void patern8(int n){
     cout<<endl;
   }
 }
-void patern9(int n){
-  patern7(n);
-  patern8(n);
+void pattern9(int n){
+  pattern7(n);
+  pattern8(n);
 }
-void patern10(int n){
+void pattern10(int n){
+  for (int i = 0; i < (2*n)-1; i++)            
+  {
+    if (i<n)
+    {
+      for (int j = 0; j <= i; j++)
+      {
+        cout<<"* ";
+      }
+    }else{
+      for (int j = 0; j < ((2*n)-1)-i; j++)
+      {
+        cout<<"* ";
+      }
+      
+    }
+    
+    cout<<endl;
+  }
+}
+void pattern11(int n){
+  for (int i = 0; i < n; i++)            
+  {                                      
+    for (int j = 0; j <= i; j++)         
+    {                                    
+      if (((i%2 == 0) && (j%2==1))||((i%2 == 1) && (j%2==0)))
+      {
+        cout<<"0 ";
+      }else
+      {
+        cout<<"1 ";
+      }             
+    }
+    cout<<endl;
+  }
+  
+}
+void pattern12(int n){
   for (int i = 0; i < n; i++)            
   {
-    for (int j = 0; j < (2*n)-1; j++)
+    for (int j = 0; j <= (2*n)-1; j++)
     {
-      if((j>=n-i-1)&&(j<=n+i-1)){
-        cout<<"* ";
-      }else{
+      if(j>i&&j<2*n-i-1){
         cout<<"  ";
+      }else{
+        if (j<n)
+        {
+          cout<<j+1<<" ";
+        }else
+        {
+          cout<<((2*n)-j)<<" ";
+        }
+        
+        
       }
     }
     cout<<endl;
   }
 }
 
-int main(){
-  patern9(5);
 
+int main(){
+  pattern12(5);
   return 0;
 }
