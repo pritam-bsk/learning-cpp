@@ -48,7 +48,7 @@ I'm aiming to master **Computer Science & Engineering**, and C++ is a must-know 
 
 ---
 
-## 📚Resources I follow
+## 📚 Resources I follow
 learning from youtube and some other platforms
 - [31+ hours of c++ by freecodecamp](https://youtu.be/8jLOx1hD3_o?si=sRkSu5V275UO5sDN)
 - [A2Z DSA by takeUforward](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/)
