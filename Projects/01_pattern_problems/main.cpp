@@ -3,25 +3,24 @@ using namespace std;
 
 
 void pattern1(int n){
-  for (int i = 0; i < n; i++)               // * * * * * *
-{                                           // * * * * * *    
-    for (int j = 0; j < n; j++)             // * * * * * *
-    {                                       // * * * * * *         
-        std::cout << "* ";                  // * * * * * *
+  for (int i = 0; i < n; i++)               
+  {                                           
+    for (int j = 0; j < n; j++)             
+    {                                         
+        std::cout << "* ";                  
     }
     std::cout<<std::endl;
   }
 }
 void pattern2(int n){
-  for (int i = 0; i < n; i++)            //*
-  {                                      //* *
-    for (int j = 0; j <= i; j++)         //* * *
-    {                                    //* * * *
-      cout << "* ";                      //* * * * *
+  for (int i = 0; i < n; i++)            
+  {                                      
+    for (int j = 0; j <= i; j++)         
+    {                                    
+      cout << "* ";                      
     }
     cout<<endl;
   }
-  
 }
 void pattern3(int n){
   for (int i = 0; i < n; i++)            
@@ -32,7 +31,6 @@ void pattern3(int n){
     }
     cout<<endl;
   }
-  
 }
 void pattern4(int n){
   for (int i = 0; i < n; i++)            
@@ -110,9 +108,7 @@ void pattern10(int n){
       {
         cout<<"* ";
       }
-      
     }
-    
     cout<<endl;
   }
 }
@@ -131,7 +127,6 @@ void pattern11(int n){
     }
     cout<<endl;
   }
-  
 }
 void pattern12(int n){
   for (int i = 0; i < n; i++)            
@@ -148,16 +143,80 @@ void pattern12(int n){
         {
           cout<<((2*n)-j)<<" ";
         }
-        
-        
       }
     }
     cout<<endl;
   }
 }
-
-
+void pattern13(int n){
+  int num{1};
+  for (int i = 0; i < n; i++)            
+  {                                      
+    for (int j = 0; j <= i; j++,num++)         
+    {                                    
+      cout << num<<" ";                      
+    }
+    cout<<endl;
+  }
+}
+void pattern14(int n){
+  for (int i = 0; i < n; i++)            
+  {                                      
+    for (char j = 'A'; j <= 'A'+i; j++)         
+    {                                    
+      cout << j<<" ";                      
+    }
+    cout<<endl;
+  }
+}
+void pattern15(int n){
+  for (int i = 0; i < n; i++)            
+  {
+    for (char j = 'A'; j < 'A'+n-i; j++)
+    {
+      cout << j<< " ";
+    }
+    cout<<endl;
+  }
+}
+void pattern16(int n){
+  for (char  i = 0; i < n; i++)            
+  {
+    for (int j = 0; j <= i; j++)
+    {
+      char ch='A'+i;
+      cout << ch << " ";
+    }
+    cout<<endl;
+  }
+}
+void pattern17(int n){
+  for (int i = 0; i < n; i++)            
+  {
+    for (int j = 0; j < (2*n)-1; j++)
+    {
+      if((j>=n-i-1)&&(j<=n+i-1)){
+        char ch = (j<=n-1)? 'A'+j-(n-i-1) : 'A'+(n-j)+i-1;
+        cout<<ch<<" ";
+      }else{
+        cout<<"  ";
+      }
+    }
+    cout<<endl;
+  }
+}
+void pattern18(int n){
+  for (int i = 0; i < n; i++)            
+  {                                      
+    for (int j = 0; j <= i; j++)         
+    { 
+      char ch = 'A'+(n-i+j-1);                                 
+      cout << ch <<" ";                      
+    }
+    cout<<endl;
+  }
+}
 int main(){
-  pattern12(5);
+  pattern18(5);
   return 0;
 }
