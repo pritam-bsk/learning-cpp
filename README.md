@@ -35,9 +35,9 @@ I'm aiming to master **Computer Science & Engineering**, and C++ is a must-know 
 |-------|--------|
 | Basics | ✅ Done |
 | OOP | ✅ Done |
-| STL | 🔄 In Progress |
-| DSA | ⏳ Coming Up |
-| Projects | ⏳ Coming Up |
+| STL | ✅ Done |
+| DSA | 🔄 In Progress |
+| Projects | 🔄 In Progress |
 
 ---
 
