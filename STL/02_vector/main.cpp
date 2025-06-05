@@ -57,5 +57,16 @@ int main(){
   vector<int> v5(v3); // Copy constructor
   printVector(v5);
 
+  vector<int> v6 = {1, 2, 3, 4, 5, 6, 7, 8};
+  printVector(v6);
+  v.pop_back();
+  printVector(v6);
+
+  v6.swap(v5);
+  printVector(v6);
+
+  v6.clear();
+  printVector(v6);
+
   return 0;
 }
