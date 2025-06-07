@@ -2,4 +2,5 @@ new.out.dSYM
 *.out
 .vscode
 .DS_Store
-
+input.txt
+output.txt
