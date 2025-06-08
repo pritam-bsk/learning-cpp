@@ -34,9 +34,15 @@ public:
         return arr;
     }
     int* insertion_sort(int arr[],int n){
-        
+        for (int i = 0; i < n; i++)
+        {
+            for (int j = i;j>0&&arr[j]<arr[j-1]; j--)
+            {
+                swap(arr[j-1],arr[j]);
+            }   
+        }
+        return arr;
     }
-
 };
 
 int main(){
@@ -53,6 +59,13 @@ int main(){
     for (int i = 0; i < 6; i++)
     {
         cout<<arr1[i]<<" ";
+    }
+    cout<<endl;
+    int arr2[]={282,93,938,84,22,232};
+    sol.insertion_sort(arr2,6);
+    for (int i = 0; i < 6; i++)
+    {
+        cout<<arr2[i]<<" ";
     }
     cout<<endl;
 }
