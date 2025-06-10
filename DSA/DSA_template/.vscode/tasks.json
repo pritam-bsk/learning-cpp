@@ -19,3 +19,5 @@
 }
   ]
 }
+
+// use g++ *.cpp -o sorting to run all
