@@ -27,5 +27,9 @@ int main(){
     print_array(arr2,6);
     cout<<endl;
 
-    
+    int arr3[]={282,93,938,84,22,232};
+    sol.merge_sort(arr3,0,5);
+    print_array(arr3,6);
+    cout<<endl;
+
 }
