@@ -11,6 +11,7 @@ public:
     int* bubble_sort(int arr[],int n);
     int* insertion_sort(int arr[],int n);
     int* merge_sort(int arr[],int low,int high);
+    int* bubble_sort_recursion(int arr[],int n);
 };
 
 #endif

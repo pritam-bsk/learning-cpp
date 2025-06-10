@@ -32,4 +32,8 @@ int main(){
     print_array(arr3,6);
     cout<<endl;
 
+    int arr4[]={282,93,938,84,22,232};
+    sol.bubble_sort_recursion(arr4,6);
+    print_array(arr4,6);
+    cout<<endl;
 }
