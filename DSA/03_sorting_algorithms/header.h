@@ -13,6 +13,7 @@ public:
     int* merge_sort(int arr[],int low,int high);
     int* bubble_sort_recursion(int arr[],int n);
     int* insertion_sort_recursion(int arr[],int i, int n);
+    int* quick_sort(int arr[],int high,int low);
 };
 
 #endif
