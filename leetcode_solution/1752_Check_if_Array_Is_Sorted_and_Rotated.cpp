@@ -2,16 +2,11 @@
 class Solution {
 public:
     bool check(vector<int>& nums) {
-        vector<int> org = nums;
-        int n = nums.size();
-        std::sort(nums.begin(),nums.end());
-        vector<int> temp(n,0);
-        for(int x=0;x<n;x++){
-            for(int i=0;i<n;i++){
-                temp[i]=nums[(i+x)%nums.size()];
-            }
-            if(temp == org) return true;
+        int count = 0;
+        for(int i = 1;i<nums.size();i++){
+            if(nums[i-1]>nums[i]) count++;
         }
-        return false;
+        if(nums[nums.size()-1]>nums[0]) count++;
+        return count<=1;
     }
 };
