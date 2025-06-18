@@ -10,7 +10,7 @@ public:
             int rem = sum - k;
             count += hash[rem];
             hash[sum] += 1;      
-        }
+        } 
         return count;
     }
 };
